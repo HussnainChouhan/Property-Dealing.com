@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Property Marketplace</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Property Marketplace</h1>
+  </header>
+
+  <div class="container">
+    <section class="buyer-section">
+      <h2>Buyer Signup</h2>
+      <form>
+        <label for="buyer-name">Name:</label>
+        <input type="text" id="buyer-name" required>
+
+        <label for="buyer-email">Email:</label>
+        <input type="email" id="buyer-email" required>
+
+        <button type="submit">Signup as Buyer</button>
+      </form>
+    </section>
+
+    <section class="seller-section">
+      <h2>Seller Signup</h2>
+      <form>
+        <label for="seller-name">Name:</label>
+        <input type="text" id="seller-name" required>
+
+        <label for="seller-email">Email:</label>
+        <input type="email" id="seller-email" required>
+
+        <button type="submit">Signup as Seller</button>
+      </form>
+    </section>
+
+    <section class="chat-section">
+      <h2>Chat</h2>
+      <div id="chat-messages"></div>
+
+      <form id="chat-form">
+        <input type="text" id="message-input" placeholder="Type your message...">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
